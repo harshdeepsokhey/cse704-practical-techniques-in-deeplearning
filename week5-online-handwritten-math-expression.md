@@ -10,10 +10,7 @@
   - Task 4: Matrix Recognition, parsing expressions with matrices .
  
 ## Proposed Ideas
-1. *MyScript*: Defines 3 engines to achieve the 4 tasks:
-  - *Segmentation*,
-  - *Recognition*, 
-  - *Interpretation*, 
+1. *MyScript*: Defines 3 engines to achieve the 4 tasks, namely segmentation, recognition, interpretation. The recognition model is expected to generate segments based on spatial relationship between part of an equation with respect to the grammar. The recognition unit is responsible for extraction of dynamic features like direction and curvature and static features like projections and histograms. 
 2. *RIT*: Uses a histogram based model combined with k-means clustering to create a word dictionary.
 3. *Tokyo University of Agriculture and Technology*: uses a combination of CNN and LSTM based models for math symbol classification. A context-free grammar based algorithm (CYK) is used to address Task 3. 
 4. *University of Nantes*: Applies a graph based approach by utilizing temporal and spatial information for strokes. This approach doesnot use any language models.
