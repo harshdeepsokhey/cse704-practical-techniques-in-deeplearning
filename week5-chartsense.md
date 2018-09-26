@@ -25,5 +25,5 @@
 
 ## Results:
 - Dataset: 
-  - *Classification*: Input: 256x256x3 with the dataset split into training and validation as 80% and 20%. 
+  - *Classification*: Input: 256x256x3 with the dataset split into training and validation as 80% and 20%. For a larger dataset, ChartSense performs better than any of the present chart data extractors. 
   - *Data Extraction*: With 3% error rate and outperforming WebPlotDigitizer , ChartSense seems to be useful. 
