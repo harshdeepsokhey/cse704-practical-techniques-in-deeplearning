@@ -17,3 +17,5 @@
   
  - *Weighted Loss Layer*: The loss calculation uses a weight term, <img src="https://latex.codecogs.com/gif.latex?\lambda_j" title="\lambda_j" />, that represents a scalar value to include the importance of the task of the learning the <img src="https://latex.codecogs.com/gif.latex?j^{th}" title="j^{th}" /> attribute. This understanding arises by eliminating the assumptions that attributes are independent and that each attribute prediction contributes equally to the loss. The authors believe that attributes are correlated with one another. 
 
+### Assumptions and Future Work
+The correlation of attributes seems like a fair assumption since a lot of attributes are co-dependent and a weighted loss would be useful. However, this may lead to stagnation of certain attributes that may not be flagged as main attributes but have properties that help enhance the main attribute. So, a weight donation strategy must be employed to ensure that these not-so-important attributes do not impact the learning in a negative way. 
